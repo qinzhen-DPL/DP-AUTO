@@ -1,0 +1,29 @@
+Information:
+    Description:
+        - 样例脚本测试套件
+Cases:
+    - example/demo_mysql_operation
+    - example/demo_oracle_operation
+    - example/demo_sqlserver_operation
+    - example/demo_postgresql_operation
+    - example/demo_db2_operation
+    - example/demo_tidb_operation
+    - example/demo_hashdata_operation
+    - example/demo_opengauss_operation
+    - example/demo_redshift_operation
+    - example/demo_greenplum_operation
+
+    - example/demo_ftp_json_operation
+    - example/demo_ftp_csv_operation
+    - example/demo_hdfs_csv_operation
+    - example/demo_hdfs_avro_operation
+    - example/demo_kafka_json_operation
+    - example/demo_kafka_avro_operation
+    - example/demo_hive_csv_operation
+    - example/demo_hive_avro_operation
+    - example/demo_hive_parquet_operation
+    - example/demo_hive_orc_operation
+    - example/demo_inceptor_csv_operation
+    - example/demo_inceptor_avro_operation
+    - example/demo_inceptor_parquet_operation
+    - example/demo_inceptor_orc_operation

@@ -1,0 +1,210 @@
+DB: DB2
+Description: ALL_TYPES_COLUMNS
+Columns:
+    id:
+        Type: BIGINT
+        Default:
+        Not_Null: true
+        Auto_Inc: true
+    col1:
+        Type: SMALLINT
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col3:
+        Type: INTEGER
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col4:
+        Type: INTEGER
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col5:
+        Type: INTEGER
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col6:
+        Type: BIGINT
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col7:
+        Type: SMALLINT
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col8:
+        Type: BLOB(64)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col9:
+        Type: DOUBLE
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col10:
+        Type: REAL
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col11:
+        Type: DECIMAL(10,0)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col12:
+        Type: DECIMAL(10,0)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col13:
+        Type: CHAR(254)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col14:
+        Type: VARCHAR(255)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col15:
+        Type: DATE
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col16:
+        Type: TIME
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col17:
+        Type: INTEGER
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col18:
+        Type: TIMESTAMP(0)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col19:
+        Type: TIMESTAMP(3)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col20:
+        Type: VARCHAR(255) FOR BIT DATA
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col21:
+        Type: LONG VARCHAR FOR BIT DATA
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col22:
+        Type: LONG VARCHAR FOR BIT DATA
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col23:
+        Type: LONG VARCHAR FOR BIT DATA
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col24:
+        Type: LONG VARCHAR
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col25:
+        Type: LONG VARCHAR
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col26:
+        Type: LONG VARCHAR
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col27:
+        Type: LONG VARCHAR
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col28:
+        Type: VARCHAR(32672)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col29:
+        Type: VARCHAR(32672)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col30:
+        Type: VARCHAR(255) FOR BIT DATA
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col31:
+        Type: VARCHAR(255) FOR BIT DATA
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col32:
+        Type: VARCHAR(32672) FOR BIT DATA
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col33:
+        Type: VARCHAR(32672) FOR BIT DATA
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col34:
+        Type: VARCHAR(32672) FOR BIT DATA
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col35:
+        Type: VARCHAR(32672) FOR BIT DATA
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col36:
+        Type: VARCHAR(32672) FOR BIT DATA
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col37:
+        Type: VARCHAR(32672) FOR BIT DATA
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col38:
+        Type: VARCHAR(32672) FOR BIT DATA
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col39:
+        Type: LONG VARCHAR FOR BIT DATA
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col40:
+        Type: BIGINT
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col41:
+        Type: SMALLINT
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+PK:
+    - id

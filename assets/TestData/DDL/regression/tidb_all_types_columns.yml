@@ -1,0 +1,155 @@
+DB: TIDB
+Description: All_types_columns
+Columns:
+    id:
+        Type: tinyint(3)
+        Default:
+        Not_Null: true
+        Auto_Inc: true
+    col2:
+        Type: smallint(6)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col3:
+        Type: mediumint(9)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col4:
+        Type: int(11)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col5:
+        Type: int(11)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col6:
+        Type: bigint(20)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col7:
+        Type: bit(1)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col8:
+        Type: double
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col9:
+        Type: double
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col10:
+        Type: float
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col11:
+        Type: decimal(11,0)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col12:
+        Type: decimal(10,5)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col13:
+        Type: char(255)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col14:
+        Type: varchar(255)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col15:
+        Type: date
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    time:
+        Type: time
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col17:
+        Type: year(4)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    timestamp:
+        Type: timestamp
+        Default: '1999-12-31 16:00:00'
+        Not_Null: true
+        Auto_Inc: false
+    datetime:
+        Type: datetime
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col20:
+        Type: tinyblob
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col21:
+        Type: blob
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col22:
+        Type: mediumblob
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col23:
+        Type: longblob
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col24:
+        Type: tinytext
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col25:
+        Type: text
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col26:
+        Type: mediumtext
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col27:
+        Type: longtext
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col28:
+        Type: enum('')
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col29:
+        Type: set('')
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col30:
+        Type: binary(255)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+PK:
+    - id

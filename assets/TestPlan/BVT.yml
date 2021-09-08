@@ -1,0 +1,43 @@
+Information:
+    Description:
+        - BVT测试套件集合
+Cases:
+#    - node_test/create_all_nodes
+
+#    - full_data_test/mysql
+#    - full_data_test/oracle
+#    - full_data_test/sqlserver
+#    - full_data_test/postgresql
+#    - full_data_test/tidb
+#    - full_data_test/hashdata
+#    - full_data_test/kafka_json
+#    - full_data_test/kafka_avro
+#    - full_data_test/ftp_csv
+#    - full_data_test/ftp_json
+#    - full_data_test/hdfs_csv
+#    - full_data_test/hdfs_avro
+#    - full_data_test/hive_csv
+#    - full_data_test/hive_parquet
+#    - full_data_test/hive_avro
+#    - full_data_test/hive_orc
+#    - full_data_test/inceptor_orc
+
+#    - incremental_data_test/mysql
+#    - incremental_data_test/oracle
+#    - incremental_data_test/sqlserver
+#    - incremental_data_test/postgresql
+#    - incremental_data_test/tidb
+#    - incremental_data_test/hashdata
+#    - incremental_data_test/kafka_json
+#    - incremental_data_test/kafka_avro
+#    - incremental_data_test/ftp_csv
+#    - incremental_data_test/ftp_json
+#    - incremental_data_test/hdfs_csv
+#    - incremental_data_test/hdfs_avro
+#    - incremental_data_test/hive_csv
+#    - incremental_data_test/hive_parquet
+#    - incremental_data_test/hive_avro
+#    - incremental_data_test/hive_orc
+#    - incremental_data_test/inceptor_orc
+
+    - example/demo_api_db_operation

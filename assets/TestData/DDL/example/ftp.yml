@@ -1,0 +1,29 @@
+DB: ftp
+Description: example
+Columns:
+    id:
+        Type: int
+        Default:
+        Not_Null: true
+        Auto_Inc: true
+    c1:
+        Type: int
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c2:
+        Type: boolean
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c3:
+        Type: string
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c4:
+        Type: decimal
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+PK:

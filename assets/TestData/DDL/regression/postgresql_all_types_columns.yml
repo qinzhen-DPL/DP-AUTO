@@ -1,0 +1,365 @@
+DB: POSTGRESQL
+Description: All_types_columns
+Columns:
+    id:
+        Type: bigint
+        Default:
+        Not_Null: true
+        Auto_Inc: true
+    col1:
+        Type: smallint
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col2:
+        Type: int2vector
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col3:
+        Type: integer
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col4:
+        Type: int4range
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col5:
+        Type: bigint
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col6:
+        Type: int8range
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col7:
+        Type: interval(6)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col8:
+        Type: json
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col9:
+        Type: jsonb
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col10:
+        Type: line
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col11:
+        Type: lseg
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col12:
+        Type: macaddr
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col13:
+        Type: money
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col14:
+        Type: name
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col15:
+        Type: numeric
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col16:
+        Type: numrange
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col17:
+        Type: oid
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col18:
+        Type: oidvector
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col19:
+        Type: path
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col20:
+        Type: pg_lsn
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col21:
+        Type: pg_node_tree
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col22:
+        Type: point
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col23:
+        Type: polygon
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col24:
+        Type: refcursor
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col25:
+        Type: regclass
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col26:
+        Type: regconfig
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col27:
+        Type: regdictionary
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col28:
+        Type: regnamespace
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col29:
+        Type: regoper
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col30:
+        Type: regoperator
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col31:
+        Type: regproc
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col32:
+        Type: regprocedure
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col33:
+        Type: regrole
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col34:
+        Type: regtype
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col35:
+        Type: reltime
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col36:
+        Type: smgr
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col37:
+        Type: text
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col38:
+        Type: tid
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col39:
+        Type: time(6) without time zone
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col40:
+        Type: timestamp(6) without time zone
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col41:
+        Type: timestamp(6) with time zone
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col42:
+        Type: time(6) with time zone
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col43:
+        Type: tinterval
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col44:
+        Type: tsquery
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col45:
+        Type: tsrange
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col46:
+        Type: tstzrange
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col47:
+        Type: tsvector
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col48:
+        Type: txid_snapshot
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col49:
+        Type: character(4000)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col50:
+        Type: uuid
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col51:
+        Type: bit varying
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col52:
+        Type: character varying
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col53:
+        Type: xid
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col54:
+        Type: xml
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col55:
+        Type: abstime
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col56:
+        Type: aclitem
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col57:
+        Type: bit(1)
+        Default: NULL::"bit"
+        Not_Null: false
+        Auto_Inc: false
+    col58:
+        Type: bit varying
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col59:
+        Type: boolean
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col60:
+        Type: box
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col61:
+        Type: bytea
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col62:
+        Type: character(4000)
+        Default: NULL::bpchar
+        Not_Null: false
+        Auto_Inc: false
+    col63:
+        Type: cid
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col64:
+        Type: cidr
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col65:
+        Type: circle
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col66:
+        Type: date
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col67:
+        Type: daterange
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col68:
+        Type: real
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col69:
+        Type: double precision
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    sss:
+        Type: gtsvector
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    fff:
+        Type: character varying
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+PK:
+    - id

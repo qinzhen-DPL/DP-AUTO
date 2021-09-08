@@ -1,0 +1,40 @@
+DB: POSTGRESQL
+Description: UPK_table
+Columns:
+    id:
+        Type: bigint
+        Default:
+        Not_Null: true
+        Auto_Inc: true
+    col_num:
+        Type: bigint
+        Default:
+        Not_Null: true
+        Auto_Inc: false
+    col_var:
+        Type: character varying(2000)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col_bool:
+        Type: boolean
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col_date:
+        Type: date
+        Default: CURRENT_DATE
+        Not_Null: false
+        Auto_Inc: false
+    col_time:
+        Type: timestamp without time zone
+        Default: CURRENT_TIMESTAMP
+        Not_Null: false
+        Auto_Inc: false
+    comm:
+        Type: character varying(255)
+        Default: 此列为备注信息
+        Not_Null: false
+        Auto_Inc: false
+PK:
+    - id

@@ -1,0 +1,190 @@
+DB: ORACLE
+Description: example
+Columns:
+    id:
+        Type: NUMBER
+        Default:
+        Not_Null: true
+        Auto_Inc: true
+    c1:
+        Type: NUMBER
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c2:
+        Type: NUMBER
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c3:
+        Type: NUMBER(5,0)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c4:
+        Type: NUMBER(5,2)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c5:
+        Type: NUMBER(5,5)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c6:
+        Type: NUMBER(2,5)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c7:
+        Type: FLOAT(126)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c8:
+        Type: FLOAT(126)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c9:
+        Type: FLOAT(10)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c10:
+        Type: CHAR(1)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c11:
+        Type: CHAR(20)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c12:
+        Type: VARCHAR2(1)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c13:
+        Type: VARCHAR2(20)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c14:
+        Type: NCHAR(1)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c15:
+        Type: NCHAR(20)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c16:
+        Type: NVARCHAR2(1)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c17:
+        Type: NVARCHAR2(20)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c18:
+        Type: BLOB
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c19:
+        Type: CLOB
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c20:
+        Type: NCLOB
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c21:
+        Type: BINARY_FLOAT
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c22:
+        Type: BINARY_DOUBLE
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c23:
+        Type: LONG
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c24:
+        Type: RAW(1)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c25:
+        Type: RAW(100)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c26:
+        Type: BFILE
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c27:
+        Type: DATE
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c28:
+        Type: TIMESTAMP (6)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c29:
+        Type: TIMESTAMP (1)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c30:
+        Type: TIMESTAMP (9)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c31:
+        Type: TIMESTAMP (0)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c32:
+        Type: TIMESTAMP (6) WITH TIME ZONE
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c33:
+        Type: TIMESTAMP (9) WITH LOCAL TIME ZONE
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c34:
+        Type: INTERVAL DAY (2) TO SECOND (6)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c35:
+        Type: INTERVAL DAY (4) TO SECOND (9)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c36:
+        Type: INTERVAL DAY (0) TO SECOND (9)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+PK:
+    - id

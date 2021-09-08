@@ -1,0 +1,200 @@
+DB: ORACLE
+Description: All_types_columns
+Columns:
+    id:
+        Type: NUMBER
+        Default: 
+        Not_Null: true
+        Auto_Inc: true
+    col1:
+        Type: NUMBER(10,5)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col3:
+        Type: NUMBER(5,6)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col4:
+        Type: FLOAT(126)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col5:
+        Type: FLOAT(63)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col6:
+        Type: CHAR(2000)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col7:
+        Type: VARCHAR2(4000)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col8:
+        Type: NCHAR(1000)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col9:
+        Type: NVARCHAR2(2000)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col10:
+        Type: DATE
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col11:
+        Type: CLOB
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col12:
+        Type: RAW(2000)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col13:
+        Type: BLOB
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col14:
+        Type: CLOB
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col15:
+        Type: NCLOB
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col16:
+        Type: BFILE
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col17:
+        Type: BINARY_DOUBLE
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col18:
+        Type: BINARY_FLOAT
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col19:
+        Type: VARCHAR2(1000)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col20:
+        Type: CHAR(1000)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col21:
+        Type: VARCHAR2(1000)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col22:
+        Type: NUMBER
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col23:
+        Type: FLOAT(126)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col24:
+        Type: INTERVAL DAY (2) TO SECOND (9)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col26:
+        Type: NCHAR(1)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col27:
+        Type: NVARCHAR2(1000)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col28:
+        Type: NVARCHAR2(1000)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col29:
+        Type: NUMBER
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col30:
+        Type: FLOAT(63)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col31:
+        Type: NUMBER
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col32:
+        Type: TIMESTAMP (9)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col33:
+        Type: TIMESTAMP (6) WITH LOCAL TIME ZONE
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col34:
+        Type: TIMESTAMP (6) WITH TIME ZONE
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col35:
+        Type: NCHAR(1000)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col36:
+        Type: NVARCHAR2(1000)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col37:
+        Type: NUMBER
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col38:
+        Type: NUMBER
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    test:
+        Type: VARCHAR2(110)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    time:
+        Type: DATE
+        Default: SYSDATE
+        Not_Null: false
+        Auto_Inc: false
+PK:
+    - id

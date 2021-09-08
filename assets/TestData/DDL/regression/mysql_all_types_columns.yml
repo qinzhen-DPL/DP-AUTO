@@ -1,0 +1,210 @@
+DB: MYSQL
+Description: All_types_columns
+Columns:
+    id:
+        Type: bigint(10)
+        Default:
+        Not_Null: true
+        Auto_Inc: true
+    col1:
+        Type: smallint(6)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col3:
+        Type: mediumint(9)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col4:
+        Type: int(11)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col5:
+        Type: int(11)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col6:
+        Type: bigint(20)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col7:
+        Type: bit(1)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col8:
+        Type: bit(64)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col9:
+        Type: double(22,10)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col10:
+        Type: float
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col11:
+        Type: decimal(10,0)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col12:
+        Type: decimal(10,0)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col13:
+        Type: char(255)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col14:
+        Type: varchar(255)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col15:
+        Type: date
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col16:
+        Type: time
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col17:
+        Type: year(4)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col18:
+        Type: timestamp(5)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col19:
+        Type: datetime(3)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col20:
+        Type: tinyblob
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col21:
+        Type: blob
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col22:
+        Type: mediumblob
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col23:
+        Type: longblob
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col24:
+        Type: tinytext
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col25:
+        Type: text
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col26:
+        Type: mediumtext
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col27:
+        Type: longtext
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col28:
+        Type: enum('')
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col29:
+        Type: set('')
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col30:
+        Type: binary(255)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col31:
+        Type: varbinary(255)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col32:
+        Type: point
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col33:
+        Type: linestring
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col34:
+        Type: polygon
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col35:
+        Type: geometry
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col36:
+        Type: multipoint
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col37:
+        Type: multilinestring
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col38:
+        Type: multipolygon
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col39:
+        Type: geometrycollection
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col40:
+        Type: bigint(20)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col41:
+        Type: tinyint(4)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+PK:
+    - id

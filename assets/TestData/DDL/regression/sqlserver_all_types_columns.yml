@@ -1,0 +1,185 @@
+DB: SQLSERVER
+Description: All_types_columns
+Columns:
+    id:
+        Type: bigint
+        Default:
+        Not_Null: true
+        Auto_Inc: true
+    col2:
+        Type: int
+        Default:
+        Not_Null: true
+        Auto_Inc: false
+    col3:
+        Type: tinyint
+        Default:
+        Not_Null: true
+        Auto_Inc: false
+    col4:
+        Type: smallint
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col5:
+        Type: decimal(18,1)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col6:
+        Type: numeric(18,1)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col7:
+        Type: smallmoney
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col8:
+        Type: money
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col9:
+        Type: float
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col10:
+        Type: real
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col11:
+        Type: datetime
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col12:
+        Type: datetime2(7)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col13:
+        Type: smalldatetime
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col14:
+        Type: date
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col15:
+        Type: time
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col16:
+        Type: datetimeoffset(7)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col17:
+        Type: timestamp
+        Default:
+        Not_Null: true
+        Auto_Inc: false
+    col18:
+        Type: char(1000)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col19:
+        Type: varchar(1000)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col20:
+        Type: varchar(MAX)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col21:
+        Type: text
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col22:
+        Type: nchar(1000)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col23:
+        Type: nvarchar(1000)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col24:
+        Type: nvarchar(MAX)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col25:
+        Type: ntext
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col26:
+        Type: bit
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col27:
+        Type: binary(1000)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col28:
+        Type: varbinary(1000)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col29:
+        Type: varbinary(MAX)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col30:
+        Type: image
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col31:
+        Type: int
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col33:
+        Type: xml
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col34:
+        Type: geography
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col35:
+        Type: geometry
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col36:
+        Type: sysname
+        Default:
+        Not_Null: true
+        Auto_Inc: false
+    col37:
+        Type: uniqueidentifier
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+PK:
+    - id

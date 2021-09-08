@@ -1,0 +1,45 @@
+DB: ORACLE
+Description: DROP
+Columns:
+    id:
+        Type: NUMBER
+        Default:
+        Not_Null: true
+        Auto_Inc: true
+    col_num:
+        Type: NUMBER
+        Default: 
+        Not_Null: false
+        Auto_Inc: false
+    col_var:
+        Type: VARCHAR2(2000)
+        Default: 
+        Not_Null: false
+        Auto_Inc: false
+    col_bool:
+        Type: NUMBER(1,0)
+        Default: 
+        Not_Null: false
+        Auto_Inc: false
+    col_date:
+        Type: DATE
+        Default: SYSDATE
+        Not_Null: false
+        Auto_Inc: false
+    col_time:
+        Type: TIMESTAMP (6)
+        Default: CURRENT_TIMESTAMP
+        Not_Null: false
+        Auto_Inc: false
+    comm:
+        Type: VARCHAR2(255)
+        Default: 此列为备注信息
+        Not_Null: false
+        Auto_Inc: false
+    col_float:
+        Type: NUMBER(10,2)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+PK:
+    - id

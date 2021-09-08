@@ -1,0 +1,41 @@
+DB: MYSQL
+Description: UPK_table
+Columns:
+    id:
+        Type: bigint(20)
+        Default:
+        Not_Null: true
+        Auto_Inc: true
+    dpid:
+        Type: bigint(255)
+        Default:
+        Not_Null: true
+        Auto_Inc: false
+    col_var:
+        Type: varchar(2000)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col_bool:
+        Type: tinyint(1)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col_date:
+        Type: date
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col_time:
+        Type: timestamp
+        Default: CURRENT_TIMESTAMP
+        Not_Null: true
+        Auto_Inc: false
+    comm:
+        Type: varchar(255)
+        Default: 此列为备注信息
+        Not_Null: false
+        Auto_Inc: false
+PK:
+    - id
+    - col_num

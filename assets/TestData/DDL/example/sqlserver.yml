@@ -1,0 +1,250 @@
+DB: SQLSERVER
+Description: example
+Columns:
+    id:
+        Type: bigint
+        Default:
+        Not_Null: true
+        Auto_Inc: true
+    c1:
+        Type: tinyint
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c2:
+        Type: smallint
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c3:
+        Type: int
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c4:
+        Type: bigint
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c5:
+        Type: float
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c6:
+        Type: real
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c7:
+        Type: float
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c8:
+        Type: real
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c9:
+        Type: decimal(18,0)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c10:
+        Type: decimal(5,5)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c11:
+        Type: decimal(5,3)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c12:
+        Type: numeric(18,0)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c13:
+        Type: numeric(5,5)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c14:
+        Type: numeric(5,3)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c15:
+        Type: money
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c16:
+        Type: smallmoney
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c17:
+        Type: char(1)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c18:
+        Type: char(20)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c19:
+        Type: varchar(1)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c20:
+        Type: varchar(20)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c21:
+        Type: varchar(MAX)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c22:
+        Type: nchar(1)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c23:
+        Type: nchar(20)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c24:
+        Type: nvarchar(1)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c25:
+        Type: nvarchar(20)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c26:
+        Type: nvarchar(MAX)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c27:
+        Type: binary(1)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c28:
+        Type: binary(20)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c29:
+        Type: varbinary(1)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c30:
+        Type: varbinary(20)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c31:
+        Type: varbinary(MAX)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c32:
+        Type: bit
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c33:
+        Type: text
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c34:
+        Type: ntext
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c35:
+        Type: date
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c36:
+        Type: time
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c37:
+        Type: datetime
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c38:
+        Type: datetime2(7)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c39:
+        Type: timestamp
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c40:
+        Type: datetimeoffset(7)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c41:
+        Type: smalldatetime
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c42:
+        Type: image
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c43:
+        Type: uniqueidentifier
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c44:
+        Type: xml
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c45:
+        Type: geometry
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c46:
+        Type: geography
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c47:
+        Type: sysname
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c48:
+        Type: sql_variant
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+PK:
+    - id

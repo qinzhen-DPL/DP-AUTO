@@ -1,0 +1,20 @@
+DB: HIVE
+Description: example
+Columns:
+    dpid:
+        Type: bigint
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c1:
+        Type: string
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c2:
+        Type: int
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+PK:
+

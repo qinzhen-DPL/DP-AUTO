@@ -1,0 +1,365 @@
+DB: hashdata
+Description: example
+Columns:
+    id:
+        Type: integer
+        Default:
+        Not_Null: true
+        Auto_Inc: true
+    c1:
+        Type: INT2
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c2:
+        Type: INT4
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c3:
+        Type: INT8
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c4:
+        Type: integer
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c5:
+        Type: float4
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c6:
+        Type: float8
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c7:
+        Type: numeric
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c8:
+        Type: varchar
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c9:
+        Type: varchar(1000)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c10:
+        Type: varchar(1)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c11:
+        Type: character
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c12:
+        Type: character(1000)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c13:
+        Type: character(1)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c14:
+        Type: json
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c15:
+        Type: text
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c16:
+        Type: real
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c17:
+        Type: money
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c18:
+        Type: bit
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c19:
+        Type: bit(10)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c20:
+        Type: varbit
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c21:
+        Type: varbit(10)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c22:
+        Type: bytea
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c23:
+        Type: date
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c24:
+        Type: time
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c25:
+        Type: time(6) without time zone
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c26:
+        Type: time(3) with time zone
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c27:
+        Type: timestamp(6) without time zone
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c28:
+        Type: timestamp(6) with time zone
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c29:
+        Type: timestamp(3) with time zone
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c30:
+        Type: reltime
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c31:
+        Type: abstime
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c32:
+        Type: interval
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c33:
+        Type: interval(3)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c34:
+        Type: point
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c35:
+        Type: regclass
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c36:
+        Type: smgr
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c37:
+        Type: regproc
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c38:
+        Type: macaddr
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c39:
+        Type: box
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c40:
+        Type: tsvector
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c41:
+        Type: gtsvector
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c42:
+        Type: int2vector
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c43:
+        Type: oid
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c44:
+        Type: oidvector
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c45:
+        Type: tsquery
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c46:
+        Type: aclitem
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c47:
+        Type: tinterval
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c48:
+        Type: cid
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c49:
+        Type: tid
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c50:
+        Type: xid
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c51:
+        Type: regoper
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c52:
+        Type: bigserial
+        Default:
+        Not_Null: true
+        Auto_Inc: false
+    c53:
+        Type: regprocedure
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c54:
+        Type: name
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c55:
+        Type: bool
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c56:
+        Type: uuid
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c57:
+        Type: regoperator
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c58:
+        Type: line
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c59:
+        Type: regconfig
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c60:
+        Type: inet
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c61:
+        Type: path
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c62:
+        Type: cidr
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c63:
+        Type: regtype
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c64:
+        Type: refcursor
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c65:
+        Type: regdictionary
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c66:
+        Type: circle
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c67:
+        Type: lseg
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c68:
+        Type: polygon
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c69:
+        Type: txid_snapshot
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c70:
+        Type: xml
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c71:
+        Type: unknown
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+PK:
+    - id

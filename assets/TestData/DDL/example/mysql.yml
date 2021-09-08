@@ -1,0 +1,345 @@
+DB: mysql
+Description: example
+Columns:
+    id:
+        Type: int
+        Default:
+        Not_Null: true
+        Auto_Inc: true
+    c1:
+        Type: int
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c2:
+        Type: tinyint
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c3:
+        Type: tinyint unsigned
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c4:
+        Type: smallint
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c5:
+        Type: smallint unsigned
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c6:
+        Type: mediumint
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c7:
+        Type: mediumint unsigned
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c8:
+        Type: int
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c9:
+        Type: int unsigned
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c10:
+        Type: bigint
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c11:
+        Type: bigint unsigned
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c12:
+        Type: float(5,2)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c13:
+        Type: float(5,2) unsigned
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c14:
+        Type: float
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c15:
+        Type: float unsigned
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c16:
+        Type: float(5,5)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c17:
+        Type: float(5,5) unsigned
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c18:
+        Type: double(5,2)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c19:
+        Type: double(5,2) unsigned
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c20:
+        Type: double
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c21:
+        Type: double unsigned
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c22:
+        Type: double(5,5)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c23:
+        Type: double(5,5) unsigned
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c24:
+        Type: decimal
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c25:
+        Type: decimal unsigned
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c26:
+        Type: decimal(5,5)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c27:
+        Type: decimal(5,5) unsigned
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c28:
+        Type: decimal(5,3)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c29:
+        Type: decimal(5,3) unsigned
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c30:
+        Type: char
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c31:
+        Type: char(20)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c32:
+        Type: varchar(1)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c33:
+        Type: varchar(20)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c34:
+        Type: tinyblob
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c35:
+        Type: blob
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c36:
+        Type: mediumblob
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c37:
+        Type: longblob
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c38:
+        Type: tinytext
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c39:
+        Type: text
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c40:
+        Type: mediumtext
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c41:
+        Type: longtext
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c42:
+        Type: date
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c43:
+        Type: time
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c44:
+        Type: time(2)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c45:
+        Type: year
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c46:
+        Type: datetime
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c47:
+        Type: datetime(2)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c48:
+        Type: timestamp
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c49:
+        Type: timestamp
+        Default: CURRENT_TIMESTAMP
+        Not_Null: false
+        Auto_Inc: false
+    c50:
+        Type: bit(1)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c51:
+        Type: bit(64)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c52:
+        Type: binary
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c53:
+        Type: binary(10)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c54:
+        Type: varbinary(10)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c55:
+        Type: point
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c56:
+        Type: linestring
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c57:
+        Type: polygon
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c58:
+        Type: multipoint
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c59:
+        Type: multilinestring
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c60:
+        Type: multipolygon
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c61:
+        Type: geometry
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c62:
+        Type: geometrycollection
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c63:
+        Type: enum('')
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c64:
+        Type: enum('aa', 'bb')
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c65:
+        Type: set('')
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c66:
+        Type: set('aa', 'bb')
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c67:
+        Type: json
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+PK:
+    - id

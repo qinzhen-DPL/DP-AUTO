@@ -1,0 +1,40 @@
+DB: SQLSERVER
+Description: DROP
+Columns:
+    id:
+        Type: int
+        Default:
+        Not_Null: true
+        Auto_Inc: true
+    col_num:
+        Type: int
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col_var:
+        Type: varchar(2000)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col_bool:
+        Type: bit
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    col_date:
+        Type: date
+        Default: sysdatetime()
+        Not_Null: false
+        Auto_Inc: false
+    col_time:
+        Type: timestamp
+        Default:
+        Not_Null: true
+        Auto_Inc: false
+    comm:
+        Type: varchar(255)
+        Default: 此列为备注信息
+        Not_Null: false
+        Auto_Inc: false
+PK:
+    - id

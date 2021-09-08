@@ -1,0 +1,125 @@
+DB: redshift
+Description: example
+Columns:
+    id:
+        Type: integer
+        Default:
+        Not_Null: true
+        Auto_Inc: true
+    c1:
+        Type: INT2
+        Default:
+        Not_Null: true
+        Auto_Inc: false
+    c2:
+        Type: INT4
+        Default:
+        Not_Null: true
+        Auto_Inc: false
+    c3:
+        Type: INT8
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c4:
+        Type: integer
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c5:
+        Type: float4
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c6:
+        Type: float8
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c7:
+        Type: numeric
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c8:
+        Type: varchar
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c9:
+        Type: varchar(1000)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c10:
+        Type: varchar(1)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c11:
+        Type: character
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c12:
+        Type: character(1000)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c13:
+        Type: character(1)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c14:
+        Type: text
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c15:
+        Type: real
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c16:
+        Type: date
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c17:
+        Type: time
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c18:
+        Type: time without time zone
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c19:
+        Type: time with time zone
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c20:
+        Type: timestamp without time zone
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c21:
+        Type: timestamp with time zone
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c22:
+        Type: timestamp with time zone
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c23:
+        Type: bool
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+PK:
+    - id

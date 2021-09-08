@@ -1,0 +1,180 @@
+DB: DB2
+Description: example
+Columns:
+    id:
+        Type: BIGINT
+        Default:
+        Not_Null: true
+        Auto_Inc: true
+    c1:
+        Type: SMALLINT
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c2:
+        Type: INTEGER
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c3:
+        Type: DOUBLE
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c4:
+        Type: DECIMAL(5,0)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c5:
+        Type: DECIMAL(10,2)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c6:
+        Type: DECIMAL(5,5)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c8:
+        Type: REAL
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c9:
+        Type: CHAR(1)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c10:
+        Type: CHAR(20)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c11:
+        Type: VARCHAR(1)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c12:
+        Type: VARCHAR(20)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c13:
+        Type: LONG VARCHAR
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c14:
+        Type: CHAR(1) FOR BIT DATA
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c15:
+        Type: CHAR(20) FOR BIT DATA
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c16:
+        Type: VARCHAR(1) FOR BIT DATA
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c17:
+        Type: VARCHAR(20) FOR BIT DATA
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c18:
+        Type: LONG VARCHAR FOR BIT DATA
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c19:
+        Type: BLOB(1048576)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c20:
+        Type: CLOB(1048576)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c21:
+        Type: DATE
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c22:
+        Type: TIME
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c23:
+        Type: TIMESTAMP(6)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c24:
+        Type: TIMESTAMP(3)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c25:
+        Type: XML
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c26:
+        Type: GRAPHIC(1)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c27:
+        Type: GRAPHIC(20)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c28:
+        Type: VARGRAPHIC(20)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c29:
+        Type: VARGRAPHIC(1)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c30:
+        Type: LONG VARGRAPHIC
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c31:
+        Type: DECFLOAT
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c32:
+        Type: DBCLOB(1048576)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c33:
+        Type: BLOB(10)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c34:
+        Type: CLOB(10)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c35:
+        Type: DBCLOB(10)
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+PK:
+    - id

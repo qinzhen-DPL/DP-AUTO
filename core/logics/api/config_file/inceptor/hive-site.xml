@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+
+
+<property>
+    <name>hive.zookeeper.quorum</name>
+    <value>tdh01:2181,tdh02:2181,tdh03:2181</value>
+</property>
+<property>
+    <name>hbase.zookeeper.quorum</name>
+    <value>tdh01:2181,tdh02:2181,tdh03:2181</value>
+</property>
+<property>
+    <name>holodesk.zookeeper.quorum</name>
+    <value>tdh01:2181,tdh02:2181,tdh03:2181</value>
+</property>
+<property>
+    <name>zookeeper.znode.parent</name>
+    <value>/inceptor1</value>
+</property>
+
+<property>
+    <name>hive.metastore.sasl.enabled</name>
+    <value>true</value>
+</property>
+<property>
+    <name>hive.metastore.kerberos.keytab.file</name>
+    <value>/etc/inceptor1/conf/inceptor.keytab</value>
+</property>
+<property>
+    <name>hive.metastore.kerberos.principal</name>
+    <value>hive/_HOST@TDH</value>
+</property>
+<property>
+    <name>yarn.resourcemanager.principal</name>
+    <value>yarn/_HOST@TDH</value>
+</property>
+<property>
+    <name>transwarp.docker.inceptor</name>
+    <value>tdh01:10000</value>
+</property>
+<property>
+    <name>hive.server2.authentication.kerberos.principal</name>
+    <value>hive/_HOST@TDH</value>
+</property>
+<property>
+    <name>hive.server2.authentication.kerberos.keytab</name>
+    <value>/etc/inceptor1/conf/inceptor.keytab</value>
+</property>
+<property>
+    <name>hive.server2.authentication.ldap.baseDN</name>
+    <value>ou=People,dc=tdh</value>
+</property>
+<property>
+    <name>hive.server2.authentication.ldap.extra.baseDNs</name>
+    <value>ou=System,ou=People,dc=tdh</value>
+</property>
+<property>
+    <name>hive.server2.authentication.ldap.url</name>
+    <value>ldap://tdh01:10389 ldap://tdh02:10389</value>
+</property>
+
+
+        <!-- enable spark ui when guardian plugin is enabled -->
+<property>
+    <name>spark.ui.guardian.enabled</name>
+    <value>true</value>
+</property>
+
+<property>
+    <name>spark.ui.authorization.guardian.component</name>
+    <value>inceptor1</value>
+</property>
+
+<property>
+    <name>spark.ui.authentication.accessToken.enabled</name>
+    <value>true</value>
+</property>
+<property>
+    <name>spark.ui.authentication.accessToken.server.address</name>
+    <value>tdh01:8380 tdh02:8380</value>
+</property>
+<property>
+    <name>spark.ui.authentication.accessToken.server.tls.enabled</name>
+    <value>true</value>
+</property>
+
+<property>
+    <name>spark.ui.authentication.cas.enabled</name>
+    <value>true</value>
+</property>
+<property>
+    <name>spark.ui.authentication.cas.server.url.prefix</name>
+    <value>https://192.168.1.54:8393/cas</value>
+</property>
+<property>
+    <name>spark.ui.authentication.cas.server.login.url</name>
+    <value>https://192.168.1.54:8393/cas/login</value>
+</property>
+
+<property>
+    <name>spark.ui.authentication.oauth2.enabled</name>
+    <value>true</value>
+</property>
+
+<property>
+    <name>hive.server2.authentication.oauth2.enabled</name>
+    <value>true</value>
+</property>
+
+<property>
+    <name>hive.server2.authentication.guardian.url</name>
+    <value>https://tdh01:8380 https://tdh02:8380</value>
+</property>
+
+<property>
+    <name>hive.server2.authentication.cas.prefix</name>
+    <value>https://tdh01:8393/cas</value>
+</property>
+
+
+<property>
+    <name>hive.server2.authentication</name>
+    <value>LDAP</value>
+</property>
+<property>
+    <name>hive.security.authenticator.manager</name>
+    <value>org.apache.hadoop.hive.ql.security.SessionStateUserAuthenticator</value>
+</property>
+<property>
+    <name>hive.security.authorization.enabled</name>
+    <value>true</value>
+</property>
+<property>
+    <name>hive.metastore.event.listeners</name>
+    <value>io.transwarp.guardian.plugins.inceptor.GuardianMetaStoreListener</value>
+</property>
+<property>
+    <name>plsql.link.hooks</name>
+    <value>org.apache.hadoop.hive.ql.pl.parse.hooks.PLAnonExecHook</value>
+</property>
+<property>
+    <name>hive.exec.pre.hooks</name>
+    <value>io.transwarp.guardian.plugins.inceptor.GuardianPLFunctionHook</value>
+</property>
+<property>
+    <name>hive.security.authorization.manager</name>
+    <value>io.transwarp.guardian.plugins.inceptor.GuardianHiveAuthorizerFactory</value>
+</property>
+
+<property>
+    <name>inceptor.scheduler.enabled</name>
+    <value>false</value>
+</property>
+<property>
+    <name>spark.guardian.enabled</name>
+    <value>true</value>
+</property>
+
+
+
+<property>
+    <name>hive.exec.scratchdir</name>
+    <value>hdfs://nameservice1/inceptor1/tmp/hive</value>
+</property>
+<property>
+    <name>hive.exec.ladderscratchdir</name>
+    <value>hdfs://nameservice1/inceptor1/tmp/hive</value>
+</property>
+<property>
+    <name>inceptor.ui.port</name>
+    <value>8888</value>
+</property>
+<property>
+    <name>hive.metastore.uris</name>
+    <value>thrift://tdh01:9083,thrift://tdh02:9083</value>
+</property>
+<property>
+    <name>mapred.job.tracker</name>
+    <value>tdh01:8031,tdh02:8031</value>
+</property>
+<property>
+    <name>javax.jdo.option.ConnectionURL</name>
+    <value>jdbc:mysql://tdh01:3316,tdh02:3316,tdh03:3316/metastore_inceptor1?failOverReadOnly=false&amp;createDatabaseIfNotExist=false&amp;characterEncoding=UTF-8</value>
+</property>
+<property>
+    <name>license.zookeeper.quorum</name>
+    <value>tdh01:2291,tdh02:2291,tdh03:2291</value>
+</property>
+
+<property>
+    <name>hive.service.type</name>
+    <value>INCEPTOR</value>
+</property>
+<property>
+    <name>hive.service.id</name>
+    <value>inceptor1</value>
+</property>
+<property>
+    <name>mapreduce.framework.name</name>
+    <value>yarn</value>
+</property>
+<property>
+    <name>hive.exec.compress.intermediate</name>
+    <value>true</value>
+</property>
+<property>
+    <name>mapred.child.java.opts</name>
+    <value>-agentpath:/usr/lib/hadoop/bin/libagent.so -Xmx4096m</value>
+</property>
+<property>
+    <name>hive.exec.dynamic.partition</name>
+    <value>false</value>
+</property>
+<property>
+    <name>hive.hwi.war.file</name>
+    <value>lib/hive-hwi-0.8.1.war</value>
+</property>
+<property>
+    <name>hive.metastore.warehouse.dir</name>
+    <value>hdfs://nameservice1/inceptor1/user/hive/warehouse</value>
+</property>
+<property>
+    <name>hive.exec.ladderscratchdir</name>
+    <value>hdfs://nameservice1/inceptor1/tmp/hive</value>
+</property>
+<property>
+    <name>hive.users.in.admin.role</name>
+    <value>hive,hue</value>
+</property>
+<property>
+    <name>hive.server2.logging.operation.enabled</name>
+    <value>false</value>
+</property>
+<property>
+    <name>hive.server2.idle.operation.timeout</name>
+    <value>28800000</value>
+</property>
+<property>
+    <name>hive.server2.enabled</name>
+    <value>true</value>
+</property>
+<property>
+    <name>hive.metastore.execute.setugi</name>
+    <value>true</value>
+</property>
+<property>
+    <name>hbase.client.scanner.caching</name>
+    <value>500</value>
+</property>
+<property>
+    <name>javax.jdo.option.ConnectionUserName</name>
+    <value>inceptoruser</value>
+</property>
+<property>
+    <name>hive.server2.session.check.interval</name>
+    <value>60000</value>
+</property>
+<property>
+    <name>graph.zk.base_path</name>
+    <value>/graph</value>
+</property>
+<property>
+    <name>hive.server2.thrift.port</name>
+    <value>10000</value>
+</property>
+<property>
+    <name>hive.decimal.wrdecimal.enabled</name>
+    <value>true</value>
+</property>
+<property>
+    <name>datanucleus.autoStartMechanism</name>
+    <value>SchemaTable</value>
+</property>
+<property>
+    <name>plsql.compile.dml.check.semantic</name>
+    <value>true</value>
+</property>
+<property>
+    <name>graph.zk.quorum</name>
+    <value>tdh01:2181,tdh02:2181,tdh03:2181</value>
+</property>
+<property>
+    <name>hive.aux.jars.path</name>
+    <value></value>
+</property>
+<property>
+    <name>mapreduce.map.memory.mb</name>
+    <value>2048</value>
+</property>
+<property>
+    <name>datanucleus.fixedDatastore</name>
+    <value>true</value>
+</property>
+<property>
+    <name>javax.jdo.option.ConnectionDriverName</name>
+    <value>com.mysql.jdbc.Driver</value>
+</property>
+<property>
+    <name>inceptor.audit.user.white.list</name>
+    <value>admin</value>
+</property>
+<property>
+    <name>hive.input.format</name>
+    <value>org.apache.hadoop.hive.ql.io.HiveInputFormat</value>
+</property>
+<property>
+    <name>datanucleus.autoCreateSchema</name>
+    <value>false</value>
+</property>
+<property>
+    <name>hive.server2.idle.session.timeout</name>
+    <value>14400000</value>
+</property>
+<property>
+    <name>hive.exec.scratchdir</name>
+    <value>hdfs://nameservice1/inceptor1/tmp/hive</value>
+</property>
+<property>
+    <name>hive.exec.compress.output</name>
+    <value>false</value>
+</property>
+</configuration>

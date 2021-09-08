@@ -1,0 +1,34 @@
+DB: kafka
+Description: example
+Columns:
+    dpid:
+        Type: long
+        Default:
+        Not_Null: true
+        Auto_Inc: false
+    c1:
+        Type: int
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c2:
+        Type: string
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c3:
+        Type: double
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c4:
+        Type: float
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c5:
+        Type: bytes
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+PK:

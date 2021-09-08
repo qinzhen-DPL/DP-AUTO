@@ -1,0 +1,56 @@
+DB: kafka
+Description: example
+Columns:
+    id:
+        Type: long
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c1:
+        Type: int
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c2:
+        Type: string
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c3:
+        Type: double
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c4:
+        Type: float
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c5:
+        Type:
+            logicalType: decimal
+            precision: 10
+            scale: 0
+            type: fixed
+            name: c5decimal
+            size: 16
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c6:
+        Type:
+            logicalType: decimal
+            precision: 10
+            scale: 5
+            type: fixed
+            name: c6decimal
+            size: 16
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+    c7:
+        Type: bytes
+        Default:
+        Not_Null: false
+        Auto_Inc: false
+PK:
